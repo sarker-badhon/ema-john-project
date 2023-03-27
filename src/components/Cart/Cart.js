@@ -1,5 +1,7 @@
 import React from 'react';
 import './Cart.css'
+
+
 const Cart = ({cart}) => {
    
     // const cart = props.cart; //option 1
@@ -9,7 +11,7 @@ const Cart = ({cart}) => {
     let totalPrice = 0;
     let totalShipping = 0;
     for(const product of cart){
-       totalPrice= totalPrice+product.price;
+       totalPrice = totalPrice+product.price;
        totalShipping = totalShipping + product.shipping;
     }
     
