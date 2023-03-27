@@ -1,0 +1,11 @@
+.cart{
+    background-color:orange;
+    padding: 20px;
+    position:sticky;
+    top:0;
+
+}
+.cart h2{
+    text-align:center;
+    
+}
